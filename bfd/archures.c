@@ -668,6 +668,7 @@ extern const bfd_arch_info_type bfd_v850_arch;
 extern const bfd_arch_info_type bfd_v850_rh850_arch;
 extern const bfd_arch_info_type bfd_vax_arch;
 extern const bfd_arch_info_type bfd_visium_arch;
+extern const bfd_arch_info_type bfd_w65c816_arch;
 extern const bfd_arch_info_type bfd_wasm32_arch;
 extern const bfd_arch_info_type bfd_xstormy16_arch;
 extern const bfd_arch_info_type bfd_xtensa_arch;
@@ -764,6 +765,7 @@ static const bfd_arch_info_type * const bfd_archures_list[] =
     &bfd_xgate_arch,
     &bfd_z80_arch,
     &bfd_z8k_arch,
+    &bfd_w65c816_arch
 #endif
   0
 };

@@ -202,6 +202,7 @@ tilegx*)	 targ_archs=bfd_tilegx_arch ;;
 tilepro*)	 targ_archs=bfd_tilepro_arch ;;
 v850*)		 targ_archs="bfd_v850_arch bfd_v850_rh850_arch" ;;
 visium*)	 targ_archs=bfd_visium_arch ;;
+w65c816)	 targ_archs=bfd_w65c816_arch ;;
 wasm32)		 targ_archs=bfd_wasm32_arch ;;
 x86_64*)	 targ_archs=bfd_i386_arch ;;
 xtensa*)	 targ_archs=bfd_xtensa_arch ;;
@@ -1390,7 +1391,9 @@ case "${targ}" in
   visium-*-elf)
     targ_defvec=visium_elf32_vec
     ;;
-
+  w65c816-*-*)
+    targ_defvec=w65c816_coff_vec
+    ;;
   wasm32-*-*)
     targ_defvec=wasm32_elf32_vec
     targ_selvecs="wasm_vec"

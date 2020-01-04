@@ -168,6 +168,7 @@ ALL_MACHINES = \
 	cpu-v850_rh850.lo \
 	cpu-vax.lo \
 	cpu-visium.lo \
+	cpu-w65c816.lo \
 	cpu-wasm32.lo \
 	cpu-xc16x.lo \
 	cpu-xgate.lo \
@@ -255,6 +256,7 @@ ALL_MACHINES_CFILES = \
 	cpu-v850_rh850.c \
 	cpu-vax.c \
 	cpu-visium.c \
+	cpu-w65c816.c \
 	cpu-wasm32.c \
 	cpu-xc16x.c \
 	cpu-xgate.c \
